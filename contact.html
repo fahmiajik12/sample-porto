@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><span>Dessy</span> Nathalia</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="aktivitas.html">Activity</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="follow">
+                <div class="follow">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-github"></a>
+        <a href="#" class="fab fa-youtube"></a>
+    </div>
+        </div>
+    </header>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span>Me</h1>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>My Email</h3>
+                <p>Dessy.nathalia@Gmail.com </p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>My Number</h3>
+                <p>+62 8123456789 </p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>My Address</h3>
+                <p>Banjarmasin</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-star-of-life"></i>
+                <h3>My Office</h3>
+                <p>Banjarmasin</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <form data-email="Dessy.nathalia@Gmail.com "
+                action="https://script.google.com/macros/s/AKfycbwdDy905E3RV6UvJXw90xbcmg_jpvbHdYPBw-yG6BKtyrDlMQSrnwNGCOqFn7zRnAhK9Q/exec"
+                class="gform pure-form pure-form-stacked" method="POST">
+                <input type="name" placeholder="Name" class="box" id="name" name="name" />
+                <input type="email" placeholder="Email" class="box" id="email" name="email" />
+                <input type="number" placeholder="Number" class="box" id="phone" name="phone" />
+
+                <textarea placeholder="Message" id="message" cols="30" rows="10" name="message"></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+
+                <div class="thankyou_message"><br><br>
+                    <h1>Thanks for contacting us!</h1>
+                    <h1>*******</h1>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer class="foot">Created By || <span>DESSY</span>NATHALIA</footer>
+
+    <a href="#home" class="gotop"><i class="fas fa-arrow-up"></i></i></a>
+
+    <script src="app.js"></script>
+
+    <script data-cfasync="false" type="text/javascript" src="app.js"></script>
+
+    <script>
+        var loader = document.getElementById('preloader');
+
+        window.addEventListener('load', function () {
+            loader.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>
